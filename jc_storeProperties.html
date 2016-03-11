@@ -1,0 +1,51 @@
+
+
+<!-- ##################################################### -->                   
+<!-- ############### Store Viewer Info Button property ################### -->
+<div class='cpExpandoBox colorLightBg' id="section_storeViewerProperties">
+    <a href='#' onClick="fnTogglePropertyBox('box_storeViewerProperties');return false;"><img src='../../images/arr_right.gif' alt='arrow' />Store Properties</a>
+    <div id="box_storeViewerProperties" style="display:box;">            
+
+        <div style='padding-top:10px;'></div>
+
+	Should the Store slide into the view:&nbsp;
+    <select name="json_transitionStart" id="json_transitionStart" style="width:225px;">
+        <option value="">--Select--</option>
+        <option value="YES">Yes, use a start transition</option>
+        <option value="NO">No, do not use a start transition</option>
+    </select>
+	<br/><br/>
+	Should the Store slide out of the view:&nbsp;
+    <select name="json_transitionEnd" id="json_transitionEnd" style="width:225px;">
+        <option value="">--Select--</option>
+        <option value="YES">Yes, use an end transition</option>
+        <option value="NO">No, do not use an end transition</option>
+    </select>
+	<br/><br/>
+
+<br/><b>Navagation Bar Button Color</b>
+    &nbsp;&nbsp;
+    <a href="#" onClick="fnPickColor('json_navBarButtonColor');return false;"><img src="../../images/arr_right.gif" alt="arrow"/>Select</a>
+    <br/>
+    <input type="text" name="json_navBarButtonColor" id="json_navBarButtonColor" value="" style="width:225px;">
+<br/><br/>
+
+   	<b>iTunes Item ID</b>:<br/>
+    <input type="text" name="json_iTunesItemID" id="json_iTunesItemID" value="">
+	<br/><br/>
+Finding the iTunes Item ID:<br/>
+1. Obtain the URL for the iTunes Item (ex: https://itunes.apple.com/us/app/trivia-game-for-downton-abbey/id624628271?mt=8)<br/>
+2. The Item Id is within the URL. You will find the number after the "id" in the URL (ex: 624628271)<br/>
+3. Place the number into the "iTunes Item ID" box in the Control Panel, be sure the only thing you place within the box is numbers.<br/>
+4. Click "Save"<br/>
+<br/>
+
+        <div class='boxButton'>
+          <input type='button' title="save" value="save" align='absmiddle' class="buttonSubmit" onClick="saveAdvancedProperty('saveResult_storeViewerProperties');return false;">
+          <div id="saveResult_storeViewerProperties" class="submit_working">&nbsp;</div>
+        </div>
+            
+    </div>    
+</div>
+<!-- ############### end Store Viewer Info property ############### -->
+<!-- ##################################################### -->

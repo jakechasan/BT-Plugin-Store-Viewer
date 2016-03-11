@@ -1,0 +1,31 @@
+//buzztouch plugin info
+uniquePluginId: jc_storeviewer
+displayAs: App & iTunes Store Viewer
+category: Action
+loadClassOrActionName: Jc_storeviewer
+hasChildItems: No
+supportedDevices: ios
+
+//author info
+authorName: Jake Chasan
+authorEmail: jappdesign@icloud.com
+authorBuzztouchURL: https://www.buzztouch.com/Jake Chasan
+authorWebsiteURL: http://www.jakechasan.com
+authorTwitterURL: http://twitter.com/jakechasan
+authorFacebookURL: https://www.facebook.com/jakechasan
+authorLinkedInURL: 
+authorYouTubeURL: 
+
+//version info
+versionNumber: 1.0
+versionString: v1.0
+updateURL: https://www.buzztouch.com/plugins/update.php?pid=2E738E5CD8DDF9D761CCBE1
+downloadURL: https://www.buzztouch.com/plugins/download.php?pid=2E738E5CD8DDF9D761CCBE1
+
+//default json data
+defaultJSONData:
+{"itemId":"23232323", "itemType":"Jc_storeviewer", "itemNickname":"App and iTunes Viewer", "transitionStart":"", "transitionEnd":"", "iTunesItemID":"", "navBarTitleText":""}
+
+//description for control panel. Up to 250 characters. No HTML.
+shortDescription:
+This plugin allows the user to view an item in the App Store or iTunes Store without leaving the app.
