@@ -7,6 +7,8 @@ This plugin allows the user to view an item in the App Store or iTunes Store wit
 ### Version History
 v1.0-Initial Release of Plugin
 
+v1.1-Compatibility with BT4.0 and iOS 10
+
 ### iOS Project
 JC_StoreViewer.h
 
