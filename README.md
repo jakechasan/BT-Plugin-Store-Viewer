@@ -9,6 +9,8 @@ v1.0-Initial Release of Plugin
 
 v1.1-Compatibility with BT4.0 and iOS 10
 
+v1.2-Compatibility with BT4.0.1 and added missing source files
+
 ### iOS Project
 JC_StoreViewer.h
 
